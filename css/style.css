@@ -1,0 +1,188 @@
+ body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+    background-color: #f8f9fa;
+    font-size: 18px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #28a745;
+}
+
+header {
+    background: url('../images/football-header.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+section {
+    padding: 80px 0;
+}
+
+#products {
+    background: #28a745;
+    color: white;
+}
+
+#products .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
+}
+
+#products .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#products .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+#about {
+    background: url('../images/about-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+#faq {
+    background: #f1f1f1;
+    color: #333;
+    padding: 80px 0;
+}
+
+#faq h2 {
+    margin-bottom: 40px;
+}
+
+#faq .accordion-button {
+    background-color: #ffc107;
+    color: #343a40;
+}
+img {
+    width: 100%;
+}
+footer {
+    background: #343a40;
+    color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #ffc107;
+}
+
+.btn-primary {
+    background-color: #ffc107;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #e0a800;
+    transform: scale(1.1);
+}
+.container-privacy {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin-top: 20px;
+}
+.card-img, .card-img-bottom, .card-img-top{
+    height: 320px !important;
+    width: 100%;
+    margin: 20px auto;
+}
+.carousel-inner {
+    text-align: center;
+} 
+#benefits {
+    background: #ffffff;
+    padding: 60px 20px;
+}
+
+#benefits .benefit-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#benefits .benefit-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+#benefits .icon {
+    font-size: 3rem;
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+#benefits h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #333;
+}
+
+#benefits p {
+    color: #555;
+    margin-top: 10px;
+}
+#testimonials .image-column img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#testimonials .carousel-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+#testimonials .carousel-item p {
+    font-size: 1.9rem;
+    color: #333;
+}
+
+#testimonials .carousel-item strong {
+    display: block;
+    margin-top: 10px;
+    font-size: 2rem;
+    color: #555;
+}
+#testimonials {
+    position: relative;
+    overflow-x: hidden;
+}
